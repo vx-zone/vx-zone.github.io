@@ -5,7 +5,7 @@ avatar: /logo.png
 email: corbaciutku@gmail.com
 
 baseurl: '/utku'
-url: 'https://vx-zone.github.io'
+
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
