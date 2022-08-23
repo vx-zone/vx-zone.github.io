@@ -4,7 +4,6 @@ author: Utku Çorbacı
 avatar: /logo.png
 email: corbaciutku@gmail.com
 
-baseurl: '/utku'
 
 plugins:
   - jekyll-seo-tag
