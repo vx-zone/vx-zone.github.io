@@ -14,7 +14,7 @@ lang: tr
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
 prefer_datetime_locale:
-
+remote_theme: cotes2020/jekyll-theme-chirpy
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/Istanbul
 
