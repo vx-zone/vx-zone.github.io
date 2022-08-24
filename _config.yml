@@ -27,6 +27,8 @@ exclude:
   - README.md
   - jekyll-theme-hamilton.gemspec
 
+skin: midnight
+
 # Jekyll SEO Tag (Optional)
 # =========================
 twitter:
