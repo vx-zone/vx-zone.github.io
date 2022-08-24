@@ -4,6 +4,8 @@ author: vx.zone
 avatar: /logo.png
 email: 
 
+markdown: kramdown
+
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
