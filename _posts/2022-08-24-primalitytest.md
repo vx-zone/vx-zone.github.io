@@ -12,13 +12,15 @@ _“Perspective is not a science but a hope”_
 
 # İçindekiler
 
-**1** Olayın Tarihçesi\
-**2** Matematiksel Teori\
-    **2.1** Fermat Çarpanlara Ayırma\
-    **2.2** Fermat Asallık Test\
-    **2.3** Miller-Rabin Asallık Testi\
-    **2.4** Örnek Bir Soru\
+<pre>
+**1** Olayın Tarihçesi
+**2** Matematiksel Teori
+    **2.1** Fermat Çarpanlara Ayırma
+    **2.2** Fermat Asallık Test
+    **2.3** Miller-Rabin Asallık Testi
+    **2.4** Örnek Bir Soru
 **3** Python İmplementasyonu
+</pre>
 
 # Olayın Tarihçesi
 > Olaya değinmeden önce asal sayılara değineceğim. Birden büyük, sadece kendisine ve bire bölünen tam sayılara asal sayı denir. En küçük asal sayı 2'dir.
