@@ -12,18 +12,12 @@ _“Perspective is not a science but a hope”_
 
 # İçindekiler
 
-**1** Olayın Tarihçesi
-
-**2** Matematiksel Teori
-
-**2.1** Fermat Çarpanlara Ayırma
-
-**2.2** Fermat Asallık Test
-
-**2.3** Miller-Rabin Asallık Testi
-
-**2.4** Örnek Bir Soru
-
+**1** Olayın Tarihçesi\
+**2** Matematiksel Teori\
+**2.1** Fermat Çarpanlara Ayırma\
+**2.2** Fermat Asallık Test\
+**2.3** Miller-Rabin Asallık Testi\
+**2.4** Örnek Bir Soru\
 **3** Python İmplementasyonu
 
 # Olayın Tarihçesi
@@ -74,13 +68,10 @@ Soruyu çözmeye zaten 2. adımdan başlayacağız çünkü sayı direkt verilmi
 $$\frac{282}{2} = 141$$ olduğundan ve 141'in tekrar ikiye bölümünden tam sayı değeri alamayacağımızdan dolayı $$282 = 2^1 \times 141$$
 Yani $$k = 1, m = 141$$ olacaktır. 
 
-$$\gg b_0 = 2^141 mod 283$$
-
-$$\gg b_0 = 282$$
-
-$$\gg b_1 = 282^2 mod 283$$
-
-$$\gg b_1 = 1$$
+$$\gg b_0 = 2^141 mod 283$$\
+$$\gg b_0 = 282$$\
+$$\gg b_1 = 282^2 mod 283$$\
+$$\gg b_1 = 1$$\
 
 Eğer sonuç -1 çıkıyorsa sayı asal değildir.
 Eğer sonuç +1 çıkıyorsa sayı asal sayıdır. Buna göre 283 sayısı asaldır.
