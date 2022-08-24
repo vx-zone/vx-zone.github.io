@@ -28,7 +28,7 @@ exclude:
   - jekyll-theme-hamilton.gemspec
 
 skin: midnight
-
+usemathjax: true
 # Jekyll SEO Tag (Optional)
 # =========================
 twitter:
