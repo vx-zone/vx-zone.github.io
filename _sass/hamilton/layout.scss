@@ -181,7 +181,7 @@
  */
 .site-body {
   display: grid;
-  grid-template-columns: calc(#{$content-width} * 0.24) 1fr;
+  
   overflow: hidden;
 
   @include media-query($on-medium) {
