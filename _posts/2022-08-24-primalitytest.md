@@ -70,7 +70,7 @@ Soruyu çözmeye zaten 2. adımdan başlayacağız çünkü sayı direkt verilmi
 $$\frac{282}{2} = 141$$ olduğundan ve 141'in tekrar ikiye bölümünden tam sayı değeri alamayacağımızdan dolayı $$282 = 2^1 \times 141$$
 Yani $$k = 1, m = 141$$ olacaktır. 
 
-$$\gg b_0 = 2^141 mod 283$$\
+$$\gg b_0 = 2^{141} mod 283$$\
 $$\gg b_0 = 282$$\
 $$\gg b_1 = 282^2 mod 283$$\
 $$\gg b_1 = 1$$\
