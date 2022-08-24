@@ -13,13 +13,13 @@ _“Perspective is not a science but a hope”_
 # İçindekiler
 
 <pre>
-**1** Olayın Tarihçesi
-**2** Matematiksel Teori
-    **2.1** Fermat Çarpanlara Ayırma
-    **2.2** Fermat Asallık Test
-    **2.3** Miller-Rabin Asallık Testi
-    **2.4** Örnek Bir Soru
-**3** Python İmplementasyonu
+1 Olayın Tarihçesi
+2 Matematiksel Teori
+    2.1 Fermat Çarpanlara Ayırma
+    2.2 Fermat Asallık Test
+    2.3 Miller-Rabin Asallık Testi
+    2.4 Örnek Bir Soru
+3 Python İmplementasyonu
 </pre>
 
 # Olayın Tarihçesi
