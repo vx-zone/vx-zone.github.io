@@ -1,8 +1,10 @@
 - title: About
-  url: /about/
-- title: Years
-  url: /years/
-- title: Categories
-  url: /categories/
+  sublinks:
+    - title: vx.zone
+      url: /about/
+    - title: utku
+      url: /ahmet/
+    - title: ahmet
+      url: /ahmet/
 - title: Tags
   url: /tags/
