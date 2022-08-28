@@ -3,7 +3,7 @@ layout: post
 title: Miller-Rabin Primality Test [TR]
 date: 2022-08-24 16:45:29 +0300
 description: Havalı asal sayı algoritmasına bir bakış atalım
-author: Utku Corbaci
+author: Utku Çorbacı
 toc: true
 tags: [Math, TR]
 ---
