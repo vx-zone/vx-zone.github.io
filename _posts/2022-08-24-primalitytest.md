@@ -61,8 +61,8 @@ $$7^{4} mod 5 $$ ilgili işlemi yaptığımız zaman sonuç 1 olarak geldiğinde
 
 1. Adım : $$n > 2$$ olmak üzere test edeceğimiz asal sayı n olsun.
 2. Adım : $$n - 1 = 2^k \times m$$ şeklinde yazalım. k ve m sayılarını bulalım.
-3. Adım : $$b_i = 2^m (mod n)$$ Sonuç $$\mp 1$$ çıkana kadar devam edelim.
-$$b_{i+1} = b_i^{2} (mod n)$$
+3. Adım : $$b_i = 2^m (\bmod n)$$ Sonuç $$\mp 1$$ çıkana kadar devam edelim.
+$$b_{i+1} = b_i^{2} (\bmod n)$$
 
 ## Örnek Bir Soru
 Soru: 283 sayısı asal mıdır?
@@ -71,9 +71,9 @@ Soruyu çözmeye zaten 2. adımdan başlayacağız çünkü sayı direkt verilmi
 $$\frac{282}{2} = 141$$ olduğundan ve 141'in tekrar ikiye bölümünden tam sayı değeri alamayacağımızdan dolayı $$282 = 2^1 \times 141$$
 Yani $$k = 1, m = 141$$ olacaktır. 
 
-$$\gg b_0 = 2^{141} mod 283$$\
+$$\gg b_0 = 2^{141} \bmod 283$$\
 $$\gg b_0 = 282$$\
-$$\gg b_1 = 282^2 mod 283$$\
+$$\gg b_1 = 282^2 \bmod 283$$\
 $$\gg b_1 = 1$$\
 
 Eğer sonuç -1 çıkıyorsa sayı asal değildir.
