@@ -340,11 +340,7 @@ class GFG
 #### Important ####
 
 If you were unable to understand this mindset, please ask us for help... 
-
-
-
-
-Thank you for spending your valuable time for this blog. I will see you in my next blog.
+Thank you for spending your valuable time for this blog. I will see you in my next blog. More awesome blogs will be written!!
 
 
 
