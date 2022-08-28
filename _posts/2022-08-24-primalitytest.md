@@ -56,7 +56,7 @@ Konsept de şu:
 $$\alpha = 7$$ ve $$p = 5$$ diyecek olursak:
 $$7^{4} mod 5 $$ ilgili işlemi yaptığımız zaman sonuç 1 olarak geldiğinden; p sayısı asaldır.
 
-## Miler-Rabin Asallık Testi
+## Miller-Rabin Asallık Testi
 Çoğu kaynakta Miller-Rabin Asallık Test'inin Fermat'ın asallık testine benzer şekilde çalıştığından bahsedilmiş. Şimdi Miller-Rabin Asallık Testi'nin algoritma tanımını yapalım sonra onun üzerinden yorumlayalım.
 
 1. Adım : $$n > 2$$ olmak üzere test edeceğimiz asal sayı n olsun.
