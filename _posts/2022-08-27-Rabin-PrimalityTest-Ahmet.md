@@ -157,7 +157,7 @@ As we discuss earlier, for many cryptographic algorithm, it is important to sele
 
 The algorithm deu to Miller and Rabin is typically used to test a large number for primality. Before explaining the algorithm, we need some background. First, any positive odd integer $n\geq 3$ can be expressed as:
 
-    $$n-1 = 2^k.q$$
+$$n-1 = 2^k.q$$
     
 In order to see whether is (n-1) is an even integer. Then we need to divide this by 2 until the result is odd number q.
 
