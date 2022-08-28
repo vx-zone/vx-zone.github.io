@@ -102,14 +102,14 @@ His job is thus being faced with the task of finding large prime numbers. More p
 
 Let's suppose, that Alex has chosen the rather large number
 
-  n = 31987937737479355332620068643713101490952335301
+ > n = 31987937737479355332620068643713101490952335301
   
 So, he wants to know whether n is a prime number or not. First Alex searches for small factors, but he finds that n is not divisible by any primes smaller than 1000000
 
 
 Thus, his job is that computing the quantity:
     
-      $$2^n-1 = 128126595355135906413360121624715836053160074 (mod n)$$
+ > $$2^n-1 = 128126595355135906413360121624715836053160074 (mod n)$$
       
  Awesome, we see that n is a composite number. Though it does give us any indication how to factor n why? how? lets refresh our Fermat's theory
  
