@@ -7,21 +7,18 @@ author: Ahmet Göker
 tags: [Math, EN, Algorithm, Calculus]
 ---
 
-
--"
 “Sometimes it is the people no one can imagine anything of who do the things no one can imagine.”
 **Alan Turing**
 
 # Topics
 
-
+<pre>
 0x01 Prime Numbers
 0x02 Fermat's Primality test 
 0x03 Primality Rabin Test
   3.1 A proof of error bound
 0x04 Rabin Encryption
-
-
+</pre>
 
 # Intro
 
@@ -38,9 +35,6 @@ First of all, we need to get an input value from the user, we will want to deter
 0x04 --> Fermat Primality Test
 
 I shall demonstrate 0x04 and 0x03 more in depth later on. I hope you will enjoy this blog. I will try to make this blog understandable.
-
-
-
 
 # Prime Numbers
 
@@ -60,15 +54,13 @@ In order to understand this definition, we can take 2 relatively prime numbers (
   
 before going to **Fermat's Primality test** I am willing to prove this. 
 
-
-     
       
-We can consider, if a | (bc) with gcd(a,b) = 1 then a | c
+We can consider, ```if a | (bc) with gcd(a,b) = 1 then a | c```
 
 Let us now prove the lemma
 
 
-**proof:**
+**Proof:**
 
 By bezout's identity not given earlier, but you can check it out [bezout's theorem](https://en.wikipedia.org/wiki/B%C3%A9zout%27s_theorem)
 
@@ -86,7 +78,7 @@ subsitiuning this into (*) gives
   
     m(a.c) + n(b.c) = m(a.c) + n(a.k) = a[mc+nk] = c    (*)
     
-This result a[mc+nk] = m(a.c) + n(a.k) = c implies that a X (integer) = c, so we have a | c.
+This result ```a[mc+nk] = m(a.c) + n(a.k) = c implies that a X (integer) = c, so we have a | c.```
 
 This completes our proof.
 
@@ -109,31 +101,30 @@ So, he wants to know whether n is a prime number or not. First Alex searches for
 
 Thus, his job is that computing the quantity:
     
- > $$2^n-1 = 128126595355135906413360121624715836053160074 (mod n)$$
+ > $$2^n-1 = 128126595355135906413360121624715836053160074 (\bmod n)$$
       
  Awesome, we see that n is a composite number. Though it does give us any indication how to factor n why? how? lets refresh our Fermat's theory
  
  ## Fermat's little Theorem
  
  Let p be a prime number. Then 
- 
   
- $$a^p \equiv a (mod p)$$ for every integer a. If p is not divisible by a, then the first version of Fermat's little theorem implies that $$a^{p-1} \equiv 2 (mod n)$$ 
+ $$a^p \equiv a (\bmod p)$$ for every integer a. If p is not divisible by a, then the first version of Fermat's little theorem implies that $$a^{p-1} \equiv 2 (\bmod n)$$ 
  
  by proven this expression we can return to Alex's quest
  
-  *n=29679529859551692762820418740138329004315165131*
+  *n= 29679529859551692762820418740138329004315165131*
   
   Alex is now going to compute his n value, and after checking, he finds that it was divisible.
   
-  $$2^n \equiv 2 (mod n)$$
+  $$2^n \equiv 2 (\bmod n)$$
   
   but ? is n a prime number? absolutely NOT because Fermat's theorem works only in this way ->
   
   
- if p is prime, then $$a^p \equiv a(mod p )$$
+ if p is prime, then $$a^p \equiv a(\bmod p )$$
  
-Last step gives us --> $$2^{341} \equiv 2 (mod 341)$$,  n = 341 and p = 341, 341 = 11.31
+Last step gives us --> $$2^{341} \equiv 2 (\bmod 341)$$,  n = 341 and p = 341, 341 = 11.31
 
 
 ### Algorithm ###
