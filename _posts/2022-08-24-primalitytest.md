@@ -8,8 +8,6 @@ toc: true
 tags: [Math, TR]
 ---
 
-test
-
 _“Perspective is not a science but a hope”_
 -- **John Berger**
 
