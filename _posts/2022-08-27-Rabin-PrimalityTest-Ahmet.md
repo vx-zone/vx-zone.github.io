@@ -326,8 +326,7 @@ class GFG
 	{
 		int k = 4; // Number of iterations
 	
-		Console.WriteLine("All primes smaller " +
-								"than 100: ");
+		Console.WriteLine("All primes smaller " + "than 100: ");
 								
 		for (int n = 1; n < 100; n++)
 			if (isPrime(n, k))
