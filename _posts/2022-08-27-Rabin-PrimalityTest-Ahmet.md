@@ -25,7 +25,7 @@ tags: [Math, EN, Algorithm, Calculus]
 
 # Intro
 
-Hello Amazing hackers, welcome back to my first blog in this community. I am thrilled to demonstrate these topics with you. Most people are thinking that malware has not to do with mathematics, but I think that it should be recommended to learn at least basic algebra and modulo arithmetic. Today, i want to illustrate about Primality Rabin Test as well as the encrypton method. Let me briefly introduce how this assymmmetric encryption method works. This method works as follow:
+Hello Amazing hackers, welcome back to my first blog in this community. I am thrilled to demonstrate these topics with you. Most people are thinking that malware has not to do with mathematics, but I think that it should be recommended to learn at least basic algebra and modulo arithmetic. Today, i want to illustrate about Primality Rabin Test as well as the encrypton method. Let me briefly introduce how this asymmetric encryption method works. This method works as follow:
 
 First of all, we need to get an input value from the user, we will want to determine and test whether input is prime or not. This method is used for cryptography and will be used for encryption. These are the types of Primality Test algorithm:
 
