@@ -52,7 +52,7 @@ $$N = (\frac{c + d}{2})^2 - (\frac{c - d}{2})^2$$
 Kısaca bundan da bahsetmeden olmaz. Matematiksel gösterim şu şekilde : 
 $$\alpha^{p-1} (mod p) $$ 
 Konsept de şu:
-Örneğin biz yukarıdaki matematiksel gösterimde p sayısının asal olup olmadığını test etmek istiyoruz. Bunun için p ile bölünemeyen rastgele bir $$\alpha$$ sayısınaihtiyacımız var.
+Örneğin biz yukarıdaki matematiksel gösterimde p sayısının asal olup olmadığını test etmek istiyoruz. Bunun için p ile bölünemeyen rastgele bir $$\alpha$$ sayısına ihtiyacımız var.
 $$\alpha = 7$$ ve $$p = 5$$ diyecek olursak:
 $$7^{4} mod 5 $$ ilgili işlemi yaptığımız zaman sonuç 1 olarak geldiğinden; p sayısı asaldır.
 
