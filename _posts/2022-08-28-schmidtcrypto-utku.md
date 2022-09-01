@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Schmidt-Samoa Şifrelemesi [TR]
-date: 2022-08-24 16:45:29 +0300
+date: 2022-09-01 16:45:29 +0300
 description: Schmidt-Samoa Şifrelemesi ile karşı karşıyayız.
 author: Utku Çorbacı
 tags: [Math, Crypto, TR]
