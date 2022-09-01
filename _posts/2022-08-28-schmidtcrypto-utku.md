@@ -2,7 +2,7 @@
 layout: post
 title: Schmidt-Samoa Şifrelemesi [TR]
 date: 2022-08-24 16:45:29 +0300
-description:  
+description: Schmidt-Samoa Şifrelemesi ile karşı karşıyayız.
 author: Utku Çorbacı
 tags: [Math, Crypto, TR]
 ---
@@ -34,7 +34,9 @@ Rastgele( :D ) seçilecek ve yeterince büyük(neden yeterince dediğimi de söy
 > Açık Anahtar(Public Key) = N\
 > Kapalı Anahtar(Private Key) = d\
 > $$\text{lcm()} = \text{ekok()}$$
-$$N = p^2 \times q$$
+
+
+$$N = p^2 \times q$$\
 $$d = N^{-1} \bmod {\text{lcm}}(p - 1, q - 1)$$
 
 > **Eğer birbirine yakın iki asal sayı seçerseniz; p ve q sayıları, açık anahtarın küp kökü civarında olacağı için hızlıca tahmin edilebilir.**
