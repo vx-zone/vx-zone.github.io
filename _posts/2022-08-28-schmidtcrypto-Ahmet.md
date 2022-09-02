@@ -14,7 +14,7 @@ tags: [Math, Crypto, EN, Algorithm]
 0x00. Cryptography
 0x01. Chinese Remainder
 0x02. Schmidt-Samoa Encryption Methodology
-0x03. Application Theorem with A Example
+0x03. Application Theorem with An Example
 0x04. python implementation RSA
 </pre>
 
@@ -106,7 +106,7 @@ We already know D, now we will compute our ciphertext to decrypt the message
 $$M=C^D mod P.Q$$ is given to decrypt it. Chinese Remaider is already given thus,  
 
 
-#  Application Theorem with A Example
+#  Application Theorem with An Example
 
 We are going to demonstrate P = 7 and Q = 11 thus $$N=P^2.Q=539$$
 
@@ -144,10 +144,20 @@ Now lets have fun. We will be using Schmidt-Samoa. Go to [Schmidt-Samoa](https:/
 to your machine. 
 
 > import schmidtSamoa as SS
+
+
 > dir(SS)
+
+
 > ['__all__', '__builtins__', '__doc__', '__file__', '__name__', '__package__', '__path__', 'core', 'decrypt', 'encrypt', 'generateKey', 'key', 'prime']
+
+
 > in the third step, you can see that we list the function which can be used.
+
+
 > (I am going to use "generate") pubkey, privkey = SS.generateKey(8) (pubkey, privekey will be generated)
+
+
 > privkey
 #### privkey
 > (17L, 215L)
