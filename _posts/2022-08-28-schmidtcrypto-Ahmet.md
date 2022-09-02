@@ -228,6 +228,9 @@ def encrypt(message, pk):
     return base64.b64decode(''.join(cipher).strip().encode())"""
 
     return base64.b64encode(''.join([str(int(pow(ord(char), pk, pk))) + " " for char in message]).strip().encode())
+  
+  
+{% highlight python %}
 
 ##### Algorithm of encrypt function
 
@@ -259,6 +262,9 @@ def decrypt(cipher, sk, n):
     return ''.join([str(chr(pow(int(num), sk, n))) for num in base64.b64decode(cipher).split(" ")])
 
 
+ {% highlight python %}
+  
+  
 1. Cipher will be decoded in base64 
 2. it separates the spaces in my cipher
 3. each spaces will be Mathematically processed the reserved place in my cipher to be identified
