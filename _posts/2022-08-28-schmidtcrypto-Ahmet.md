@@ -181,8 +181,10 @@ def getPrime(n):
                 number = random.getrandbits(n)
 
         return number # return number
-        
-{% highlight python %}
+       
+
+
+{% endhighlight %}
 
 
 #### GetPrime in Python 
@@ -229,7 +231,7 @@ def encrypt(message, pk):
 
     return base64.b64encode(''.join([str(int(pow(ord(char), pk, pk))) + " " for char in message]).strip().encode())
   
-  {% endhighlight %}
+{% endhighlight %}
 
 ##### Algorithm of encrypt function
 
@@ -242,9 +244,8 @@ def encrypt(message, pk):
 
 ## decrypt function in python
 
+
 {% highlight python %}
-
-
 
 def decrypt(cipher, sk, n):
 
@@ -258,7 +259,7 @@ def decrypt(cipher, sk, n):
     return ''.join(plain)"""
 
     return ''.join([str(chr(pow(int(num), sk, n))) for num in base64.b64decode(cipher).split(" ")])
-
+  
 {% endhighlight %}
   
   
