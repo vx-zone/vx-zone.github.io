@@ -10,15 +10,22 @@ tags: [Math, Crypto, EN, Algorithm]
 
 
 <pre>
-1. Chinese Remainder
-2. Schmidt-Samoa Encryption Methodology
-3. Application Theorem with A Example
-4. python implementation RSA
+
+0x0. Cryptography
+0x1. Chinese Remainder
+0x2. Schmidt-Samoa Encryption Methodology
+0x3. Application Theorem with A Example
+0x4. python implementation RSA
 </pre>
 
 
 “"Geometry enlightens the intellect and sets one's mind right."”
 ― **Ibn-Khaldun**
+
+
+# Cryptography
+
+In the past decade, cryptography has done more to damage the security of digital systems than it has to enhance it. Cryptograpy burst onto the world stage in the early 1990s as the securer of the internet.Some saw cryptography as a great technological equalizer, a mathematical tool that would put the lowliest privacy-seeking individual on the same footing. Today we will be informing about Schmidt-Samoa encryption as well as decryption technique. Now lets kick off 
 
 
 
@@ -27,7 +34,7 @@ tags: [Math, Crypto, EN, Algorithm]
 > Before diving into Schmidt-Samoa Encryption Algorithm, it might be useful to have to have at least basic understanding of Chinese Remainder. I will try to illustrate Schmidt-Samoa 
 Encryption and Decryption Methodology. If you are ready to learn and applicate its in the modern life that should be awesome to securely encrypt your messages.
 
-The original Chinese Remainder Problem  (CRP) proposed by Sun Zi in Sun Zi Suanjing (Problem 26, Volume 3), which consists of three volumes, is as follows:
+The original Chinese Remainder Problem  (CRP) proposed by Sun Zi in Sun Zi Suanjing , which consists of three volumes, is as follows:
 
 "We have a number of things, but do not know exactly how may. If 
 we count them by threes we have two left over. If we count them by 
@@ -96,7 +103,7 @@ $$C = M^N mod N$$. We are going to encrypt our ciphertext
 We already know D, now we will compute our ciphertext to decrypt the message
 
 
-$$M=C^D mod PQ$$ is given to decrypt it. Chinese Remaider is already given thus,  
+$$M=C^D mod P.Q$$ is given to decrypt it. Chinese Remaider is already given thus,  
 
 
 #  Application Theorem with A Example
