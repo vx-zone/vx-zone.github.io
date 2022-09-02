@@ -265,7 +265,7 @@ def decrypt(cipher, sk, n):
 
 #### decrypt our creepy message
 
-> import schmidtSamoa as SS
+>  import schmidtSamoa as SS
 > pubkey, privkey = SS.generateKey(8)
 > creepy = "darkghost"
 > creepy = SS.encrypt(creepy,pubkey)
