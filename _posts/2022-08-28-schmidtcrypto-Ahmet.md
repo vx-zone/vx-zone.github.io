@@ -11,11 +11,11 @@ tags: [Math, Crypto, EN, Algorithm]
 
 <pre>
 
-0x0. Cryptography
-0x1. Chinese Remainder
-0x2. Schmidt-Samoa Encryption Methodology
-0x3. Application Theorem with A Example
-0x4. python implementation RSA
+0x00. Cryptography
+0x01. Chinese Remainder
+0x02. Schmidt-Samoa Encryption Methodology
+0x03. Application Theorem with A Example
+0x04. python implementation RSA
 </pre>
 
 
@@ -293,8 +293,7 @@ darkghost
 So we are done with this implementation.
 
 
-
-#Conclusion
+# Conclusion
 
 If you were unable to understand this mindset, please ask us for help...
 
