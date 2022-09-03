@@ -20,7 +20,7 @@ paginate: 10
 
 # Uncomment the below lines and set the Disqus shortname for enabling Disqus
 # 
-# disqus:
+disqus: vx-zone
 
 # Jekyll
 # ======
