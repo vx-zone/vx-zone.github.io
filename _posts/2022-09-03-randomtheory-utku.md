@@ -4,6 +4,7 @@ title: Rastgele Sayı Teorisi [TR]
 date: 2022-09-03 15:42:31 +0300
 description: Bilgisayar rastgele sayıyı nasıl üretiyor?
 author: Utku Çorbacı
+comments: true
 tags: [Math, TR]
 ---
 
