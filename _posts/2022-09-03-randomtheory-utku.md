@@ -3,7 +3,7 @@ layout: post
 title: Rastgele Sayı Teorisi [TR]
 date: 2022-09-03 15:42:31 +0300
 description: Bilgisayar rastgele sayıyı nasıl üretiyor?
-author: Utku Corbaci
+author: Utku Çorbacı
 tags: [Math, TR]
 ---
 
