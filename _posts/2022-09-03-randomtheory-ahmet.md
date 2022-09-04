@@ -249,7 +249,7 @@ Once time, when you might want to use random numbers from Linux Kernel, you can 
 
 ### Lagged Fibonacci generator
 
-> Important (I will use wikipedia to explain this generatorm much better)
+> Important (I will use a bit from wikipedia source)
 
 We discussed earlier about **linear conqruence** algorithm. This algorithm is This class of random number generator actually the predecessor of **linear conqruencer** but with more improvements and being improved with fibonnaci sequence
 
