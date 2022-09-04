@@ -316,6 +316,7 @@ I would also recommend you some books where you can learn and practise it. So as
 
 video 1 --> [random number generator](https://www.youtube.com/watch?v=_tN2ev3hO14)
 video 2 --> [Blum-Blum-Shub](https://www.youtube.com/watch?v=M2VOfZJyk_o)
+video 3 --> [Game Engine Theory](https://www.youtube.com/watch?v=bd7k037zykY)
 
 
 
