@@ -314,6 +314,12 @@ I was trying to explain these algorithms as best as i could of course there can 
 
 I would also recommend you some books where you can learn and practise it. So as to become a superior malware analyst, you do not have to be very good at maths, you should think matematically.
 
+video 1 --> [random number generator](https://www.youtube.com/watch?v=_tN2ev3hO14)
+video 2 --> [Blum-Blum-Shub](https://www.youtube.com/watch?v=M2VOfZJyk_o)
+
+
+
+
 
 If you were unable to understand this mindset, please ask us for help... Thank you for spending your valuable time for this content. I will see you in the next time. More awesome blogs will be written!!
 
