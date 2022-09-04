@@ -18,8 +18,7 @@ _“It is impossible for any number which is a power greater than the second to 
 <pre>
 0x01. Number Theory
 0x02. Random Numbers Through Computer Algorithm
-0x03. Techniques Of Generating Random Numbers
-0x04. Random Number Generation with An application
+0x03. Techniques Of Generating Random Number
 </pre>
 
 
