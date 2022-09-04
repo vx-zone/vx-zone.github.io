@@ -128,7 +128,7 @@ for _ in range(100):
 
 {% endhighlight %}
 
---> Output:
+> Output:
 7
 11
 10
