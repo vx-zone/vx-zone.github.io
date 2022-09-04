@@ -73,7 +73,7 @@ The most commonly used will be produced by **linear conqruence** for generating 
 
 In order to understand this, i am going to demonstrate four integers; the **modules** m, **multiplier** a, **increment** c, and **seed** $$X0$$, with $$2\leq a < m$$, $$0\leq c <m$$, $$0\leq X0 <m$$
 
-We use this sequence of pseudorandom numbers will be defined as {Xn} $$0\leq X0 < m$$ for all n, by successively using the recursively defined 
+We use this sequence of pseudorandom numbers will be defined as Xn $$0\leq X0 < m$$ for all n, by successively using the recursively defined 
 
 $$Xn+1 = (A.Xn+C) mod m$$
 
