@@ -420,7 +420,7 @@ CLASSES
      |      # get the group name
   
   ```
-  ## Exploring the Capstone
+ ## Exploring the Capstone
   
   You can get more information about Capstone through written documentation.After reading it, come back
   and explore the Capstone API. I would say that my reasearch was on the docs of API but could not fine something.
@@ -439,7 +439,7 @@ CLASSES
  cs_err are defined. For instance, if you wanted to modify the linear disassembler so it supports ARM code, you would reference capstone.h to find
  the proper architecture (CS_ARCH_ARM) and mode (CS_MODE_ARM) parameters to pass to the cs_open function.4
  
- ## Recursive Disassembly with Capstone
+## Recursive Disassembly with Capstone
   
  Capstone allows you to inspect only basic information about instructions, such as the address, raw bytes, or mnemonic representation. This is fine for a linear disassembler, as you saw in the previous example. However, more advanced binary analysis tools often need
  to make decisions based on instruction properties, 
@@ -510,7 +510,7 @@ int disasm(Binary *bin)
  Lets kick off "What is instrumentation" ?
  
  
- ##  What is Instrumentation
+##  What is Instrumentation
  
  An instrument is a device that measures or manipulates process physical variables such as flow, temperature, level, or pressure etc. 
  Instruments include many varied contrivances which can be as simple as valves and transmitters, and as complex as analyzers. 
@@ -524,7 +524,8 @@ int disasm(Binary *bin)
  Above is represented as function to another function. We are going to work with APIs and you will understand more how this framework exactly works.
  
  
- ## Qiling's Instrumentation
+ 
+## Qiling's Instrumentation
  
  When we talk about Qiling's framework, we should consider as follow:
  
@@ -537,7 +538,7 @@ int disasm(Binary *bin)
  
  I will show you what this means...
  
- ## Qiling Framework and its Interface 
+## Qiling Framework and its Interface 
  
  
  We should know that Loader and setup must be set up such as:
@@ -546,7 +547,7 @@ int disasm(Binary *bin)
  
 
  
- ### What is Loader
+### What is Loader
  
  A loader locates programs in memory and prepares them for execution. It is an important component when starting a program.
  It includes tasks such as reading the content of the executable file and placing the file in memory.
