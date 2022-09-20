@@ -493,9 +493,12 @@ int disasm(Binary *bin)
   ```
   
   
-# The structure of Qiling Framework
+ # The structure of Qiling Framework
+ 
+ The usage of this Framework is not hard as you expect it has a lot of advantages. The documentation of Qiling is a bit outdated, but it works fine. Written in Python   
+ will be easy for everyone who wantS to become familiar with.
   
- The usage of this Framework is not hard as you expect it has a lot of advantages. The documentation of Qiling is a bit outdated, but it works fine. Written in Python will be easy for everyone who wantS to become familiar with.
+ 
  
  To get more familiar with this framework, i am going to mention these structures:
  
