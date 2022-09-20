@@ -22,7 +22,7 @@ _“It is a fairly open secret that almost all system can be hacked, somehow. It
 
 
 
-## content 
+## Content 
 
 <pre>
 0x0  Binary Analysis
@@ -440,10 +440,13 @@ CLASSES
  the proper architecture (CS_ARCH_ARM) and mode (CS_MODE_ARM) parameters to pass to the cs_open function.4
  
 ## Recursive Disassembly with Capstone
-  
- Capstone allows you to inspect only basic information about instructions, such as the address, raw bytes, or mnemonic representation. This is fine for a linear disassembler, as you saw in the previous example. However, more advanced binary analysis tools often need
+ Capstone allows you to inspect only basic information about instructions, such as the address, raw bytes, or mnemonic representation. This is fine for a linear d  
+ disassembler, as you saw in the previous example. However, more advanced binary analysis tools often need
  to make decisions based on instruction properties, 
- such as the registers theinstruction accesses, the type and value of its operands, the type of instruction (arithmetic, control flow, and so on), or the locations targeted by control flow in
+ such as the registers theinstruction accesses, the type and value of its operands, the type of instruction (arithmetic, control flow, and so on), or the locations 
+ targeted by control flow in
+  
+ 
   
  I found a piece of code, which will help us to understand. This code shows us a basic implementation of recursive disassembly.
   
@@ -513,11 +516,11 @@ int disasm(Binary *bin)
  Lets kick off "What is instrumentation" ?
  
  
-##  What is Instrumentation
+ ##  What is Instrumentation
  
- An instrument is a device that measures or manipulates process physical variables such as flow, temperature, level, or pressure etc. 
- Instruments include many varied contrivances which can be as simple as valves and transmitters, and as complex as analyzers. 
- Instruments often comprise control systems of varied processes. The control of processes is one of the main branches of applied instrumentation.
+  An instrument is a device that measures or manipulates process physical variables such as flow, temperature, level, or pressure etc. 
+  Instruments include many varied contrivances which can be as simple as valves and transmitters, and as complex as analyzers. 
+  Instruments often comprise control systems of varied processes. The control of processes is one of the main branches of applied instrumentation.
  
  source: [İnstrumentation](https://instrumentationtools.com/what-is-instrumentation-and-control-engineering/)
  
@@ -528,7 +531,7 @@ int disasm(Binary *bin)
  
  
  
-## Qiling's Instrumentation
+ ## Qiling's Instrumentation
  
  When we talk about Qiling's framework, we should consider as follow:
  
@@ -555,7 +558,7 @@ int disasm(Binary *bin)
  A loader locates programs in memory and prepares them for execution. It is an important component when starting a program.
  It includes tasks such as reading the content of the executable file and placing the file in memory.
  
- ## CPU instrumentation
+## CPU instrumentation
  
  Oke, lets say we stored us loader and setup to CPU. It has a lot capibilities like:
  ```
