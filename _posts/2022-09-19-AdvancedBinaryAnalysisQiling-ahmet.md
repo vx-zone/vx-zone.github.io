@@ -1957,8 +1957,8 @@ class QlCoreHooks:
 
 # Summary
 
-First of all, i would like to thank Qiling's developers. I really appreciate their work. I did my reasearch on this project thus it can be so that i forgotten something please forgive me for that.
-I will put the link below, you can do your research and challenges be done.
+First of all, i would like to thank Qiling's developers. I really appreciate their work. I did my reasearch on this project thus it can be so that I forgotten something, please forgive me for that.
+I will put the link below, you can do your research and learn through challenges that I recommend.
 
 
 Qiling: [qiling](https://docs.qiling.io/en/latest/)
