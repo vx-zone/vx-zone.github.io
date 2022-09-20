@@ -296,7 +296,8 @@ You can easily install "Capstone" through Python
  -> help(capstone)
   
 ---------------- Output----------------------
-  
+ 
+ ```
  NAME
     capstone - # Capstone Python bindings, by Nguyen Anh Quynnh <aquynh@gmail.com>
 
@@ -418,7 +419,7 @@ CLASSES
      |  group_name(self, group_id, default=None)
      |      # get the group name
   
-  
+  ```
   ## Exploring the Capstone
   
   You can get more information about Capstone through written documentation.After reading it, come back
