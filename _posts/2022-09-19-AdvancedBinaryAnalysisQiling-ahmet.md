@@ -595,7 +595,7 @@ int disasm(Binary *bin)
        0x51. q1.set_api()
 ``` 
  
- ### Example
+### Example
  
  ```python
  
@@ -609,8 +609,7 @@ q1.set_syscall(0x05, my_syscall_function)
  
  
  ```
- 
- ## File System instrumentation
+## File System instrumentation
  
  Oke, lets say we stored us loader and setup to File System. It has a lot capibilities like:
 ```
@@ -627,7 +626,7 @@ q1.set_syscall(0x05, my_syscall_function)
        
        
 ```       
- ### Example
+### Example
  
 ```python
 class FakeRnd(QlFsMappedObject):
