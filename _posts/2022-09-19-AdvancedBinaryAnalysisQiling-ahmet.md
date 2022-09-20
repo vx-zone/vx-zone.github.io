@@ -53,7 +53,7 @@ This topic shall be very long, but I am going to illustrate this in an easy way 
 ## C (Compilation Process)
 Binaries should be translated into human-readable source code, such as C and C++. I am not going to dig deep in this topic, but let me explain and demonstrate with some
 picture. The steps in C++ compilation process are similar. When we talk in C, it has four phases these are:
-    1. The preprocessing Phase
+    1. The preprocessing Phase 
     2. The compilation Phase
     3. The assembly Phase 
     4. Linking Phase
