@@ -717,7 +717,7 @@ if __name__ == "__main__":
 
 # Qiling technique
 
-The last step, I am going to use  Qiling framework to show you how this framework works practically. This framework, which understands OS concepts (executable format such as ELF, dynamic linkers, syscalls, IO handlers…). Very convenient to quickly emulate an executable binary without emulating its entire OS.
+The last step, I am going to use  Qiling framework to show you how this framework works in practically. This framework, which understands OS concepts (executable format such as ELF, dynamic linkers, syscalls, IO handlers…). Very convenient to quickly emulate an executable binary without emulating its entire OS.
 I was really interested to handle with framework. There 11 challenges to be completed, but I will solve 3 of them. If you are interested and you want to learn more about, you can check this
 --> [Shielder](https://www.shielder.com/blog/2021/07/qilinglab-release/). If you are ready let me get started with challenge 1.
 
