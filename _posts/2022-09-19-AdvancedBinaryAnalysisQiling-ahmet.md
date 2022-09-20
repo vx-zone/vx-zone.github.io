@@ -14,7 +14,7 @@ tags: [Binary, C++, C, Python, Code]
 
 Welcome back to my blogpost.
 
-Today, I want to cover about a framework called Qiling. If you are ready let's get started.
+**Today, I want to cover about a framework called Qiling. If you are ready let's get started.Before starting to write this blog, i assume that you have basic knowledge of the structure binary.**
 
 
 _“It is a fairly open secret that almost all system can be hacked, somehow. It is a less spoken of secret that such hacking has actually gone quite mainstream. ”_
@@ -25,7 +25,7 @@ _“It is a fairly open secret that almost all system can be hacked, somehow. It
 ## content 
 
 <pre>
-0x0  Binary 
+0x0  Binary Analysis
      0x01. C compilation Pocess
 0x1. What is an emulation system 
      0x11. CHIP-8 emulator
@@ -43,7 +43,7 @@ _“It is a fairly open secret that almost all system can be hacked, somehow. It
 
 
 
-# Binary
+# Binary Analysis
 When you come across with this definition, people would say "it is just analyzing binary files" but what is it exactly doing. What is the purpose of this goal, and What is a binary file ?
 Let me briefly explain what it is. modern computers are perfoming and computing using the binary numerical system, which expresses and runs on zeros and ones. It is important to know that,
 machine code that these system execute is called binary code. It is also important that, collecting such numerical sytems to be combining to each other so as to run that program in a single contained file.
