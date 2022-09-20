@@ -1946,7 +1946,7 @@ Qiling: [qiling](https://docs.qiling.io/en/latest/)
 Qiling challenges: [qiling-challenges](https://docs.qiling.io/en/latest/)
 telegram [Qiling-Telegram](https://t.me/qilingframework)
 
-I wish a good luck. Please do not forget share and like our blogposts for more awesome stuffs.
+I wish you a good luck. Please do not forget share and like our blogposts for more awesome stuffs.
 
 Thanks in advance.
 
