@@ -50,7 +50,7 @@ machine code that these system execute is called binary code. It is also importa
 This topic shall be very long, but I am going to illustrate this in an easy way and for beginners friendly. You can also get more information via this source [Binary](https://en.wikipedia.org/wiki/Binary)
 
 
-## C Compilation Process
+## C (Compilation Process)
 Binaries should be translated into human-readable source code, such as C and C++. I am not going to dig deep in this topic, but let me explain and demonstrate with some
 picture. The steps in C++ compilation process are similar. When we talk in C, it has four phases these are:
     1. The preprocessing Phase
@@ -575,7 +575,7 @@ int disasm(Binary *bin)
  ```
  
  
-## Operating Sysem instrumentation
+## Operating System instrumentation
 
  Oke, lets say we stored us loader and setup to OS. It has a lot capibilities like:
 ```
@@ -1958,7 +1958,8 @@ class QlCoreHooks:
 # Summary
 
 First of all, i would like to thank Qiling's developers. I really appreciate their work. I did my reasearch on this project thus it can be so that i forgotten something please forgive me for that.
-I will put the link below, you can do your research. And challenges which you can do are online.
+I will put the link below, you can do your research and challenges be done.
+
 
 Qiling: [qiling](https://docs.qiling.io/en/latest/)
 Qiling challenges: [qiling-challenges](https://docs.qiling.io/en/latest/)
@@ -1966,7 +1967,7 @@ telegram [Qiling-Telegram](https://t.me/qilingframework)
 
 I wish you a good luck. Please do not forget share and like our blogposts for more awesome stuffs.
 
-Thanks in advance.
+Thanks for reading.
 
 
 
