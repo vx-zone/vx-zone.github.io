@@ -521,7 +521,7 @@ int disasm(Binary *bin)
  
  A --> B --> C --> D --> E --> F
  
- Above is represented as function to another function. We are going to work with APIs and will understand more how this framework exactly works.
+ Above is represented as function to another function. We are going to work with APIs and you will understand more how this framework exactly works.
  
  
  ## Qiling's Instrumentation
