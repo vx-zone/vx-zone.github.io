@@ -556,9 +556,9 @@ int disasm(Binary *bin)
  ```
  0x1.  Access to register
  0x2.  Reading register
-      0x2 ql.reg.eax
+       0x2 ql.reg.eax
  0x3.  Writing to register
-      0x31. ql.reg.eax = 0x44
+       0x31. ql.reg.eax = 0x44
  0x4.  Differet Hooks
  ```
  #### Example
