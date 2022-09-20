@@ -1,8 +1,26 @@
+---
+layout: post
+title: Qiling Framework (Binary Analysis) [EN]
+date: 2022-09-20 15:42:31 +0300
+description: Analyzing Binary with Qiling Advanced emulator
+author: Ahmet Göker
+comments: true
+tags: [Binary, C++, C, Python, Code]
+---
+
+
+
 # Advanced Binary Emulation Framework with Qiling
 
 Welcome back to my blogpost.
 
 Today, I want to cover about a framework called Qiling. If you are ready let's get started.
+
+
+_“It is a fairly open secret that almost all system can be hacked, somehow. It is a less spoken of secret that such hacking has actually gone quite mainstream. ”_
+-- **Dan Kaminsky**
+
+
 
 ## content 
 
