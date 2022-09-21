@@ -14,7 +14,7 @@ tags: [Binary, C++, C, Python, Code]
 
 Welcome back to my blogpost.
 
-**Today, I want to cover about a framework called Qiling. If you are ready let's get started.Before starting to write this blog, i assume that you have basic knowledge of the structure binary.**
+**Today, I want to cover about a framework called Qiling. If you are ready let's get started.Before starting to write this blog, i assume that you have to have basic knowledge of the anatomy of binary files.**
 
 
 _“It is a fairly open secret that almost all system can be hacked, somehow. It is a less spoken of secret that such hacking has actually gone quite mainstream. ”_
@@ -439,7 +439,9 @@ CLASSES
  cs_err are defined. For instance, if you wanted to modify the linear disassembler so it supports ARM code, you would reference capstone.h to find
  the proper architecture (CS_ARCH_ARM) and mode (CS_MODE_ARM) parameters to pass to the cs_open function.4
  
-## Recursive Disassembly with Capstone
+ 
+ 
+ ## Recursive Disassembly with Capstone
  Capstone allows you to inspect only basic information about instructions, such as the address, raw bytes, or mnemonic representation. This is fine for a linear d  
  disassembler, as you saw in the previous example. However, more advanced binary analysis tools often need
  to make decisions based on instruction properties, 
@@ -496,7 +498,7 @@ int disasm(Binary *bin)
   ```
   
   
- # The structure of Qiling Framework
+# The structure of Qiling Framework
  
  The usage of this Framework is not hard as you expect it has a lot of advantages. The documentation of Qiling is a bit outdated, but it works fine. Written in Python   
  will be easy for everyone who wantS to become familiar with.
@@ -516,7 +518,7 @@ int disasm(Binary *bin)
  Lets kick off "What is instrumentation" ?
  
  
- ##  What is Instrumentation
+##  What is Instrumentation
  
   An instrument is a device that measures or manipulates process physical variables such as flow, temperature, level, or pressure etc. 
   Instruments include many varied contrivances which can be as simple as valves and transmitters, and as complex as analyzers. 
@@ -531,7 +533,7 @@ int disasm(Binary *bin)
  
  
  
- ## Qiling's Instrumentation
+## Qiling's Instrumentation
  
  When we talk about Qiling's framework, we should consider as follow:
  
@@ -603,7 +605,7 @@ int disasm(Binary *bin)
        0x51. q1.set_api()
 ``` 
  
-### Example
+ ### Example
  
  ```python
  
@@ -617,7 +619,8 @@ q1.set_syscall(0x05, my_syscall_function)
  
  
  ```
-## File System instrumentation
+ 
+ ## File System instrumentation
  
  Oke, lets say we stored us loader and setup to File System. It has a lot capibilities like:
 ```
@@ -782,7 +785,7 @@ of the binary, you will not be able to work with.
 
  if __name__ == '__main__':
 
-    path = ["/home/darkghost/qiling-challenges/qilinglab-aarch64"] # Your path is changeable
+    path = ["/home/darkghost/qiling-challenges/qilinglab-aarch64"] # this path should be changed
     rootfs = "my_rootfs/arm64_linux" 
 
     ql = Qiling(path, rootfs)
@@ -1118,14 +1121,17 @@ As you can see above we are done with challenge 4.
 # Summary
 
 First of all, i would like to thank Qiling's developers. I really appreciate their work. I did my reasearch on this project thus it can be so that I forgotten something, please forgive me for that.
-I will put the link below, you can do your research and learn through challenges that I recommend.
+I will put the link below, you can do your own research and learn from these challenges -.
 
 
-Qiling: [qiling](https://docs.qiling.io/en/latest/)
-Qiling challenges: [qiling-challenges](https://docs.qiling.io/en/latest/)
-telegram [Qiling-Telegram](https://t.me/qilingframework)
 
-I wish you a good luck. Please do not forget share and like our blogposts for more awesome stuffs.
+1. Qiling: [qiling](https://docs.qiling.io/en/latest/)
+2. Qiling challenges: [qiling-challenges](https://docs.qiling.io/en/latest/)
+3. telegram: [Qiling-Telegram](https://t.me/qilingframework)
+
+
+
+I wish you a good luck. Please do not forget to share and like our blogposts for more awesome stuffs.
 
 Thanks for reading.
 
