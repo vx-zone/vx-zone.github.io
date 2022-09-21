@@ -121,8 +121,8 @@ The memory should be 4 kB (4 kilobytes, ie. 4096 bytes) large. CHIP-8’s index 
 All the memory is RAM and should be considered to be writable. CHIP-8 games can, and do, modify themselves.
 The first CHIP-8 interpreter (on the COSMAC VIP computer) was also located in RAM, from address 000 to 1FF. It would expect a CHIP-8 program to be loaded into memory after it, starting at address 200 (512 in decimal). Although modern interpreters are not in the same memory space, you should do the same to be able to run the old programs; you can just leave the initial space empty, except for the font.
 As you already might have understand, that its important to have good knowledge of programming because, it seems like to create an easy emulator system but that is not the case.
-Actually, most people are saying that, programming language is not required to know because automated tools are already being existed in the area but,I would recommend you to learn and understad the structure of any programming language such as C,C++ would be a good choice to kick off.
-Nonetheless, as we read that,CHIP-8 has direct access to up to 4KB of ram. Stack;A stack for 16-bit addresses, which is used to call subroutines/functions and return from them
+Actually, most people are saying that, programming language is not required to know because automated tools are already existed in the area , but I would recommend you to learn and understad the structure of any programming language such as C,C++ would be a good choice to kick off.
+Nonetheless, as we read that CHIP-8 has direct access to up to 4KB of ram. Stack;A stack for 16-bit addresses, which is used to call subroutines/functions and return from them
 
 If you are interested to write your own emulator system go to this page --> [CHIP-8 EMULATOR](https://austinmorlan.com/posts/chip8_emulator/)
 
