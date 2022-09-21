@@ -6,4 +6,4 @@ permalink: /ahmet/
 
 # **Ahmet Göker**
 
-_Mathematician, malware analyst, reverse engineer,CS engineer_
+_Mathematician, Malware analyst, Reverse engineer,CS engineer_
