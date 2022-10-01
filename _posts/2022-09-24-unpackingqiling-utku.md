@@ -19,7 +19,7 @@ In this blog post, we have a packed PE file. We will analyze it and unpack it wi
 2. Automate Unpacking with Qiling
     2.1 Qiling Framework Structure
     2.2 Layle's Emu Analysis
-    2.3 The Troubles
+    2.3 Unpacking Script
 </pre>
 
 # Analysis Packed Sample
