@@ -119,14 +119,17 @@ void EncryptData(BYTE* const base, const DWORD size) {
 {% endhighlight %}
 
 My goal in this article is not to dump in an executable way (i.e. I will not fix the IAT table after dumping). After Decryption with Qiling, we will take a look at the sections. For example, an image of a sample partition before it is unpacked:
+
 ![Screenshot_3](https://user-images.githubusercontent.com/54905232/192287029-6065922e-dd2b-4b14-bc99-9c301d36f55f.png)
 
 After unpacking:
+
 ![Screenshot_4](https://user-images.githubusercontent.com/54905232/192372646-07fe7938-94a1-42ab-9f82-ad71e35549e0.png)
 
 ## Cutter - Ghidra (Disassemble & Decompile)
 We already knew that the file was encrypted by the deletion of the partition names. The entry point of the file we have is redirected to the address of the partition named _.shell_ . After opening the Cutter, we already see one function in the functions section and we start to analyze it.
 This is what we will see on the graph when we open the file on Cutter (in read mode):
+
 ![Screenshot_2](https://user-images.githubusercontent.com/54905232/192118879-0b78a4b3-dd50-4e4a-813d-c8e925298adc.png)
 
 I will use _Ghidra_ since it is more difficult to interpret such packing operations in assembly. Once we figure out how it works, we can use x32dbg and Scylla. 
