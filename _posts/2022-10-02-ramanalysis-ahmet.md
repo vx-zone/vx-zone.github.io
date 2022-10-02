@@ -8,7 +8,7 @@ comments: true
 tags: [Malware Analysis, Forensics, Memory Forensics, EN]
 ---
 
-_“As a matter of fact, yeah, they were foolproof. The problem is that you don’t have to protect yourself against fools. You have to protect yourself against people like me.”_
+_“As a matter of fact, yeah, they were foolproof. The problem is that you don’t have to protect yourself against fools. You have to protect yourself against people like me”_
 -- **Jeffery Deaver**
 
 
