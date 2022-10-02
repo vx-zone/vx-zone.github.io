@@ -873,7 +873,7 @@ Injecting DLL to PID: 19608
 ```
 
 
-You should look at the process hacker or task manager to identify the PID. In my case was it 1652. Now we are going to be able to dump our volatile memory to be analyzed with 
+You should look at the process hacker or task manager to identify the PID. In my case, it was 19608 Now, we are going to be able to dump our volatile memory to be analyzed with 
 Rekall Framework.
 
 
@@ -1301,9 +1301,7 @@ if `Notepad` in the process then, send it to `vad` (virtual address Descriptor).
 Virtual address descriptor, this will be useful because it will give us the information about;
 
 DLL files, memory protection, type, and more... so we parsed Notepad to `vad`. You can also check it via Rekall framework simultaneously.
-
-
-if the given statements is true then, we will get `True` from that function. This means we can get the UniqueProcessId from that process.
+If the given statements is true then, we will get `True` from that function. This means we can get the UniqueProcessId from that process.
 
 
 ### def thread()
