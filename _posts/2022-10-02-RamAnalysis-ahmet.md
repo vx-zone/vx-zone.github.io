@@ -84,7 +84,7 @@ You can get more information from this source: [Memory-Paging](https://en.wikipe
 
 
 
---> I am ready to get started with ````Rekall Framework``` We will firstly look at the source code and understanding what it does while perfoming memory analysis. Lets kick off.
+--> I am ready to get started with ```Rekall Framework``` We will firstly look at the source code and understanding what it does while perfoming memory analysis. Lets kick off.
 
 
 # Rekall Memory Forensics
