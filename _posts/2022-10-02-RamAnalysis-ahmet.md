@@ -5,7 +5,7 @@ date: 2022-10-02 13:58:02 +0300
 description: RAM Image analysis with Rekall
 author: Ahmet Göker
 comments: true
-tags: [Malware Analysis, Forensics, EN]
+tags: [Malware Analysis, Forensics, Memory Forensics, EN]
 ---
 
 _“As a matter of fact, yeah, they were foolproof. The problem is that you don’t have to protect yourself against fools. You have to protect yourself against people like me.”_
