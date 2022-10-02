@@ -883,7 +883,7 @@ Rekall Framework.
 I am also going to disassamble this code with IDA to look at the process
 
 
-```
+```assembly
 
 
 lea     rax, [rsp+5C8h+ProcessInformation]
@@ -907,7 +907,7 @@ jnz     short loc_18000114C
 ```
 
 
-```
+```assembly
 
 
 lea     r8, [rbp+1C0h+dllPath] ; lpBuffer
