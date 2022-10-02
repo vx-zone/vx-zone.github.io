@@ -62,7 +62,7 @@ being stored will be permanently deleted. Ram can be attacked by Cold boot attac
 As I explained earlier that RAM is an array of memory cells without this powerful hardware component, we should not be able to work with computers. Ram has memory cells, each with its own physical memory used to access that cell. For the CPU to execute instructions and have access data stored in main memory,
 it must specify a unique address for that data. We also already know that process has not direct access to physical memory because it can be harmful the operating system and even cause the crash completely which can be irritating.
 Each process its own isolated address space, which is the predicatable because it solves the problem of security and isolation of processes from each other to OS.
-To have better understanding of address space, let me overview a bit about virttual memory.
+To have better understanding of address space, let me overview a bit about virtual memory.
 You can get more information from this source: [Address-Space](https://en.wikipedia.org/wiki/Address_space)
 
 
