@@ -16,7 +16,7 @@ _â€œAs a matter of fact, yeah, they were foolproof. The problem is that you donâ
 # Table Of Contents
 <pre>
 0x1. Memory Forensics
-    1.1 Why Memory Forensics ? 
+    1.1 base of memory forensics
     1.2 Acquisition Process
     1.3 Volatile Memory
     1.4 Address Space
