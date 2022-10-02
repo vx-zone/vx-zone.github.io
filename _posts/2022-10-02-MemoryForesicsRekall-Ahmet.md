@@ -961,8 +961,13 @@ Of course, we already know that PID of notepad++ 1652 lets analyze that
 
 
 ```
-
- 0x7ffafdc20000 True    True    True   C:\Windows\System32\propsys.dll
+[1] suspicious.mem 08:00:30> ldrmodules(19608)
+       base      in_load in_init in_mem mapped
+  -------------- ------- ------- ------ ------
+--------------------------------
+0xb70d37594180 Notepad.exe 19608
+--------------------------------
+  0x7ffafdc20000 True    True    True   C:\Windows\System32\propsys.dll
   0x7ffaee110000 True    True    True   C:\Windows\System32\winspool.drv
   0x7ffadce60000 True    True    True   C:\Windows\System32\Windows.UI.Xaml.Controls.dll
   0x7ffad4f70000 True    True    True   C:\Program Files\WindowsApps\microsoft.vclibs.140.00.uwpdesktop_14.0.30704.0_x64__8wekyb3d8bbwe\vcruntime140_1.dll
@@ -983,18 +988,12 @@ Of course, we already know that PID of notepad++ 1652 lets analyze that
   0x7ffadc0b0000 True    True    True   C:\Windows\System32\DataExchange.dll
   0x7ffad9390000 True    True    True   C:\Windows\System32\Windows.UI.Core.TextInput.dll
   0x7ffadc2c0000 True    True    True   C:\Windows\System32\threadpoolwinrt.dll
-  0x7ffadee20000 True    True    True   C:\Windows\System32\Windows.UI.Xaml.dll
-  0x7ffade540000 True    True    True   C:\Windows\System32\DWrite.dll
-  0x7ffaddf40000 True    True    True   C:\Windows\System32\directmanipulation.dll
-  0x7ffadd3d0000 True    True    True   C:\Windows\System32\TextShaping.dll
-  0x7ffade1e0000 True    True    True   C:\Windows\System32\Windows.Globalization.dll
-  0x7ffadec90000 True    True    True   C:\Windows\System32\Windows.UI.Immersive.dll
-  0x7ffae1b50000 True    True    True   C:\Windows\System32\BCP47mrm.dll
-  0x7ffae04f0000 True    True    True   C:\Windows\System32\BCP47Langs.dll
-  0x7ffae0030000 True    True    True   C:\Windows\System32\twinapi.dll
-  0x7ffae0560000 True    True    True   C:\Windows\System32\InputHost.dll
-  
-  ```
+
+
+
+
+
+```
 
 
 When we use ldrmodules(1652), You will see this output.It is also important to check `vad`
