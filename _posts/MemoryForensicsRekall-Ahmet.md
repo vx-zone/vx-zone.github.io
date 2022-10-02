@@ -1310,8 +1310,8 @@ Notepad has been infected  (PID: 19608)
 
 # Summary 
 
-If you did like this memory Forensics with Rekall, please then not forget to share and like this blog. More awesome blogs will be appeared in this blog-site.
-If you unable to understand this, you can always ask us for help.
+If you did like this memory Forensics with Rekall blog-post, please then not forget to share and like this blog. More awesome reverse and malware blogs will be appeared in this blog-site.
+If you unable to understand this concept, feel free to ask us for help.
 
 Thank you for reading this blog.
 
