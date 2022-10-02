@@ -8,7 +8,7 @@ comments: true
 tags: [Unpacking, Emulation, EN]
 ---
 
-In this blog post, we have a packed PE file. We will analyze it and unpack it with Qiling Framework. Once you understand how encryption works, I will explain more about Qiling. In this article we will use Cutter for analysis and Ghidra for decompile (included in Cutter)
+In this blog post, we have a packed PE file. We will analyze it and unpack it with Qiling Framework. Once you understand how encryption works, I will explain more about Qiling. In this article we will use Cutter for analysis and Ghidra for decompile (included in Cutter).
 
 # Table Of Contents
 <pre>
@@ -518,5 +518,6 @@ utku%> python main.py
 [=]     GetModuleHandleA(lpModuleName = "Kernel32.dll") = 0x6b800000
 [=]     GetProcAddress(hModule = 0x6b800000, lpProcName = "VirtualAlloc") = 0x6b8181b0
 [=]     VirtualAlloc(lpAddress = 0, dwSize = 0xe0d, flAllocationType = 0x3000, flProtect = 0x40) = 0x5001505
+
 Dumped
 ```
