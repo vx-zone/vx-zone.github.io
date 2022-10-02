@@ -8,7 +8,7 @@ comments: true
 tags: [Unpacking, Emulation, EN]
 ---
 
-In this blog post, we have a packed PE file. We will analyze it and unpack it with Qiling Framework. Once you understand how encryption works, I will explain more about Qiling. In this article we will use Cutter for analysis and Ghidra for decompile (included in Cutter).
+In this blog post, we have a packed PE file. We will analyze it and unpack it with Qiling Framework. Once you understand how encryption works, I will explain more about Qiling. In this article we will use Cutter for analysis and Ghidra for decompile (included in Cutter)
 
 # Table Of Contents
 <pre>
