@@ -863,8 +863,8 @@ Being able to demonstrate `rekall` I am going go inject inject.dll to notepad to
                2 File(s)      1,419,776 bytes
                2 Dir(s)  133,399,515,136 bytes free
 
-C:\Users\Malwa\Desktop\Malware Dev\DLL\DLLinject\x64\Debug>Rekall-DLL.exe 1652
-Injecting DLL to PID: 3972
+C:\Users\Malwa\Desktop\Malware Dev\DLL\DLLinject\x64\Debug>Rekall-DLL.exe 19608
+Injecting DLL to PID: 19608
 
 
 
