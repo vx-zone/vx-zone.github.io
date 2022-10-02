@@ -956,7 +956,7 @@ Awesome. Now we are going to analyze with Rekall. First of all, you should have 
 
 
 
-Of course, we already know that PID of notepad++ 1652 lets analyze that 
+Of course, we already know that PID of notepad 19608 lets analyze that 
 
 
 
@@ -996,7 +996,7 @@ Of course, we already know that PID of notepad++ 1652 lets analyze that
 ```
 
 
-When we use ldrmodules(1652), You will see this output.It is also important to check `vad`
+When we use ldrmodules(19608), You will see this output.It is also important to check `vad`
 
 ### What is VAD?
 
@@ -1030,11 +1030,20 @@ These permissions give us an indication of the type of access. Lets analyze that
 ```
 
 
-  0x978b0b5125c0   6 0x7ff749b80000 0x7ff74a18ffff     40 Mapped  Exe    EXECUTE_WRITECOPY    C:\Program Files\Notepad++\notepad++.exe
-  0x978b0b5181a0   4 0x7ffb2b4c0000 0x7ffb2b51cfff      4 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\DataExchange.dll
-  0x978b0b2b8ae0   6 0x7ffb31620000 0x7ffb31625fff      3 Mapped  Exe    EXECUTE_WRITECOPY    C:\Users\Malwa\Desktop\Malwation\Rekall\inject.dll
-  0x978b0b5195a0   5 0x7ffb3d5d0000 0x7ffb3d6fcfff      6 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\TextInputFramework.dll
-  0x978b0b516800   6 0x7ffb3d9a0000 0x7ffb3da4dfff      2 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\TextShaping.dll
+0xb70d3aa9a6c0   2 0x7ffaee110000 0x7ffaee1aafff      4 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\winspool.drv
+0xb70d3aa7bb80   8 0x7ffaee1b0000 0x7ffaee218fff      4 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\oleacc.dll
+0xb70d3aa9b160   7 0x7ffaee220000 0x7ffaee4c4fff      8 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22000.120_none_9d947278b86cc467\comctl32.dll
+0xb70d3aa9f260   8 0x7ffaeecd0000 0x7ffaeecd5fff      3 Mapped  Exe    EXECUTE_WRITECOPY    C:\Users\Malwa\Desktop\Malwation\Rekall\dark.dll
+0xb70d3aa9ba20   6 0x7ffaf0750000 0x7ffaf0850fff      6 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\MrmCoreR.dll
+0xb70d3aa9e360   7 0x7ffaf3cc0000 0x7ffaf55bffff    157 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\DriverStore\FileRepository\u0357176.inf_amd64_828ff99cacd4aa89\B356563\atidxx64.dll
+0xb70d3aa9b840   5 0x7ffaf68b0000 0x7ffaf68edfff      3 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\Windows.StateRepositoryClient.dll
+0xb70d3aaa0de0   8 0x7ffaf71b0000 0x7ffaf71dcfff      4 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\D3DSCache.dll
+0xb70d3aaa00c0   7 0x7ffaf7880000 0x7ffaf78aefff      4 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\amdihk64.dll
+0xb70d3aa9eb80   6 0x7ffaf7930000 0x7ffaf7967fff      3 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\DriverStore\FileRepository\u0357176.inf_amd64_828ff99cacd4aa89\B356563\atiuxp64.dll
+0xb70d3aa9ef40   7 0x7ffaf7a00000 0x7ffaf7bdafff     16 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\DriverStore\FileRepository\u0357176.inf_amd64_828ff99cacd4aa89\B356563\aticfx64.dll
+0xb70d3aa9ce20   4 0x7ffaf8120000 0x7ffaf8935fff     18 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\OneCoreUAPCommonProxyStub.dll
+0xb70d3aa9c420   6 0x7ffaf8c60000 0x7ffaf8ec5fff      7 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\twinapi.appcore.dll
+0xb70d3aa9c600   5 0x7ffaf9650000 0x7ffaf966afff      3 Mapped  Exe    EXECUTE_WRITECOPY    C:\Windows\System32\Windows.StateRepositoryCore.dll
 
 
 
