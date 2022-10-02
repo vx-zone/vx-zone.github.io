@@ -16,12 +16,12 @@ _â€œAs a matter of fact, yeah, they were foolproof. The problem is that you donâ
 # Table Of Contents
 <pre>
 0x1. Memory Forensics
-		0xa Why Memory Forensics ? 
-		0xb Acquisition Process
-		0xc Volatile Memory
-		0xd Address Space
-		0xe Virtual Memory
-		0xf Paging
+    1.1 Why Memory Forensics ? 
+    1.2 Acquisition Process
+    1.3 Volatile Memory
+    1.4 Address Space
+    1.5 Virtual Memory
+    1.6 Paging
 0x2. Rekall Memory Forensics
     2.1 Rekall structure
     2.2 Profile Mechanism
