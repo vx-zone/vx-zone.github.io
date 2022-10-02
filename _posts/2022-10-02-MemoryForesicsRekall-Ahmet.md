@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ram Image Analysis
+title: Memory Forensics with Rekall
 date: 2022-10-02 13:58:02 +0300
 description: RAM Image analysis with Rekall
 author: Ahmet Göker
