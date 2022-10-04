@@ -198,34 +198,7 @@ def main(argv=None):
     user_session = session.InteractiveSession()
     user_session.session_list.append(user_session)
 
-    # Alow all special plugins to run.
-    user_session.privileged = True
 
-    def global_arg_cb(global_flags, _):
-        if global_flags.version:
-            print("This is Rekall Version %s (%s)" % (
-                constants.VERSION, constants.CODENAME))
-
-            print(rekall.get_versions())
-            sys.exit(0)
-
-    with user_session.GetRenderer().start():
-        plugin_cls, flags = args.parse_args(
-            argv=argv, global_arg_cb=global_arg_cb,
-            user_session=user_session)
-
-    # Install any quotas the user requested.
-    user_session = quotas.wrap_session(user_session)
-    try:
-        # Run the plugin with plugin specific args.
-        user_session.RunPlugin(plugin_cls, **config.RemoveGlobalOptions(flags))
-    except Exception as e:
-        logging.fatal("%s. Try --debug for more information." % e)
-        if getattr(flags, "debug", None):
-            pdb.post_mortem(sys.exc_info()[2])
-        raise
-    finally:
-        user_session.Flush()
 
 if __name__ == '__main__':
     main()
@@ -325,21 +298,7 @@ class ScannerCheck(with_metaclass(registry.MetaclassRegistry, object)):
         self.address_space = address_space
         self.session = session
 
-    def object_offset(self, offset):
-        return offset
-
-    def check(self, buffer_as, offset):
-        """Is the needle found at 'offset'?
-
-        Arguments:
-          buffer_as: An address space object with a chunk of data that can be
-            checked for the needle.
-        offset: The offset in the address space to check.
-        """
-        _ = offset
-        _ = buffer_as
-        return False
-
+ 
 ``` 
 
 
@@ -398,24 +357,6 @@ class LoadWindowsProfile(common.AbstractWindowsCommandPlugin):
    
 
     name = "load_profile"
-
-    interactive = True
-
-    __args = [
-        dict(name="module_name", positional=True, required=True,
-             help="The name of the module (without the .pdb extensilon)."),
-
-        dict(name="guid", help="The guid of the module.")
-    ]
-
-    def collect(self):
-        if self.guid is None:
-            # Try to detect the GUID automatically.
-            module = self.session.address_resolver.GetModuleByName(
-                self.module_name)
-            if not module:
-                raise plugin.PluginError(
-                    "Unknown module %s." % self.module_name)
 
             profile_name = module.detect_profile_name()
             if not profile_name:
@@ -517,23 +458,7 @@ class WinAPIAddressResponse(address_resolver.AddressResolverMixin,
                             common.AbstractAPICommandPlugin):
     """Address resolver for windows API access."""
 
-    @staticmethod
-    def NormalizeModuleName(module_name):
-        result = str(module_name)
-        result = re.split(r"[/\\]", result)[-1]
 
-        # Drop the file extension.
-        result = result.split(".")[0]
-
-        return result.lower()
-
-    def _EnsureInitialized(self):
-        """Initialize the address resolver.
-        In windows we populate the virtual address space map from kernel modules
-        and VAD mapped files (dlls).
-        """
-        if self._initialized:
-            return
 
         try:
             process_context = self.session.GetParameter("process_context")
