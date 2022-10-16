@@ -191,7 +191,7 @@ we need to combine ` 861836f13e3d627d` and `fa375bdb8389214e` together thus --> 
 ## The flag
 
 
-If we reverse our md5 hash to be string, we will be able to see the word: `goldfish`
+If we reverse our md5 hash to string format, we will be able to see the word: `goldfish`
 
 
 Put the answer and grab the flag:  `picoCTF{p1kap1ka_p1c0b187f1db}`
