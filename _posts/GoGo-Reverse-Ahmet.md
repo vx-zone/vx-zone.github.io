@@ -10,8 +10,6 @@ tags: [Binary, Reverse]
 “What is mathematics? It is only a systematic effort of solving puzzles posed by nature.”
 **Shakuntala Devi**
 
-
-
 # Topics
 
 <pre>
