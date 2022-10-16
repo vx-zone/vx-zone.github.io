@@ -212,9 +212,6 @@ Thanks for reading this blog. More awesome reverse and malware blogs are coming 
 
 
 
-
-
-
 Ahmet Göker | Reverse Lover | Math geek | Malware researcher
 
 
