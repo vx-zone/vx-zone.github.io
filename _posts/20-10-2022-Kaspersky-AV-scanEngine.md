@@ -1170,5 +1170,7 @@ I know that this should not be enough to understand AV products properly, but it
 
 Thank you for reading this blog. Stay tuned for more great blogs.
 
+![image](https://user-images.githubusercontent.com/95978207/197043109-3841b41c-e37d-4abd-9bef-aacf20cc7a82.png)
+
 
 Ahmet Göker | RE
