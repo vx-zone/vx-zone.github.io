@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: AV scan Engine 
 date: 2022-09-20 13:58:02 +0300
 description: Understanding AV
