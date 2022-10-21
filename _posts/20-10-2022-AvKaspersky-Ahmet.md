@@ -6,6 +6,7 @@ description: Understanding AV
 author: Ahmet Göker
 comments: true
 tags: [Malware Analysis, Forensics, EN]
+
 ---
 
 _“I was addicted to hacking, more for the intellectual challenge, the curiosity, the seduction of adventure; not for stealing, or causing damage or writing computer viruses.”_
