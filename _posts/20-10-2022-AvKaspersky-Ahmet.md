@@ -57,6 +57,7 @@ You can get more information from: [CRC](https://en.wikipedia.org/wiki/Cyclic_re
 
 # Malware and Detection
 
+
 In order to have a better understanding about AV evasions, this will be the right place to sit and read.
 The key part of AV evasion is also determining and considering malware's behaviour as well as the detection.
 For instance, a specific sample through static or whether dynamic that some signature, or is detected through malcious's behaviour.
