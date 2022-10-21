@@ -1168,6 +1168,10 @@ By confuser or other such techniques you can use API hooking to analyze more in 
 
 I know that this should not be enough to understand AV products properly, but it was my first time to analyze AV product however, do not forget that  we will be going to analyze more AV products. I will come with more awesome techniques which shall make it easier for us.
 
+You should also check this repo which creates and disassembles one or more .NET methods
+
+JIT .NET disass -->[JIT](https://github.com/0xd4d/JitDasm)
+
 
 
 Thank you for reading this blog. Stay tuned for more great blogs.
