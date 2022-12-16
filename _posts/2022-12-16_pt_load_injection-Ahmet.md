@@ -137,7 +137,7 @@ You can check these libraries in your free time.
 
 4. after injecting; do not forget to patch the binary. 
 
-5. In order to trace the target, you can add the old entry point to the malicious to become (your choice) but tracing 
+5. In order to trace the target, you can add the old entry point to the malicious to be hidden (your choice) but tracing 
 anonymously will be useful.
 
 6. when the fifth is done, save the binary as output.
