@@ -32,6 +32,7 @@ Structures are:
 - ELF  header
 - File data
 ```
+
 We are interested in ELF header which should help to inject our shellcode into the file.
 
 Let me use readelf command to understand the anatomy. 
