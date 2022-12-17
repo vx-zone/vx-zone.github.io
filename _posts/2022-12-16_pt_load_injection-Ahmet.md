@@ -10,6 +10,7 @@ tags: [Coding, Python, ELF, Linux, EN]
 
 
 
+
 # PT_load injection 
 
 Hey everyone welcome back to my blog about PT_load injection. Today I want iilustrate
